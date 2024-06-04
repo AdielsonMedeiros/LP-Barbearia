@@ -41,4 +41,19 @@ i{
     padding: 8px 24px;
     border-radius: 4px;
     color: $white-normal;
+    background-color: transparent;
+    transition: 0.8s;
+}
+
+.header-button:hover{
+    
+    border: 1px solid $red-light;
+    background-color: $red-light;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
 }
