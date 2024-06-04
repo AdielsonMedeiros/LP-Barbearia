@@ -33,5 +33,12 @@ i{
     to{
         transform: translateY(-8px) scale(1.1);
 
-    }
+    } 
+
+}
+.header-button{
+    border: 1px solid $white-normal;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: $white-normal;
 }
