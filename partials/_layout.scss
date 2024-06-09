@@ -3,7 +3,7 @@
 .container{
     max-width: 1440px;
     margin: 0 auto;
-
+    padding: 0 8px;
 }
 
 .bg-home{
@@ -81,6 +81,32 @@
         transform: scale(1.07);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .hero{
+        min-height: 60vh;
+
+        h1{
+            font-size: 38px;
+            padding: 0 14px;
+            width: 100%;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero h1{
+        font-size: 24px;
+    }
+
+}
+
+//-------FINAL DO HERO
 
 
 
